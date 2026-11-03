@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Message Editing",
+    "description": "Edit a sent user message in place and replace it with your revision (the original conversation is archived and recoverable)."
+  }
+}

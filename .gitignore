@@ -1,0 +1,6 @@
+# macOS AppleDouble / Finder metadata
+._*
+.DS_Store
+**/.DS_Store
+node_modules/
+*.log
