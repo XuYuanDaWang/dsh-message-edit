@@ -2,17 +2,15 @@
 
 <p align="center"><b>发错消息，不必重发。</b><br>暂停生成 · 原地改消息 · 无缝继续</p>
 
-<p align="center">
-  <a href="assets/skill-promo.mp4"><img src="assets/poster-title.png" alt="▶ 观看完整演示视频（35 秒）" width="820"></a>
-</p>
+https://github.com/user-attachments/assets/994da353-1164-4ff8-8770-9f707fd94063
 
-<p align="center">▶ <a href="assets/skill-promo.mp4"><b>观看完整演示视频（35 秒 · 1080p）</b></a></p>
+<p align="center"><sub>▲ 完整演示视频（35 秒 · 1080p，点 ▶ 直接播放）｜原始文件：<a href="assets/skill-promo.mp4">assets/skill-promo.mp4</a></sub></p>
 
 <p align="center">
-  <img src="assets/preview.gif" alt="功能演示：发错消息 → 先暂停生成 → 点开原文直接改 → 已替换继续跑" width="820">
+  <img src="assets/preview.gif" alt="流程速览动图：发错消息 → 先暂停生成 → 点开原文直接改 → 已替换继续跑" width="820">
 </p>
 
-<p align="center"><sub>上方动图为完整流程速览；点图片或链接观看高清完整视频</sub></p>
+<p align="center"><sub>▲ 不方便点开视频？上面是全流程速览动图（自动播放）</sub></p>
 
 ---
 
@@ -85,7 +83,9 @@ DSH 的可见聊天记录由**追加型事件**渲染，直接用「替换型 su
 
 ## 文件
 
-- `assets/` —— 演示视频 `skill-promo.mp4`、流程速览 `preview.gif`、封面图。
+- `assets/skill-promo.mp4` —— 完整演示视频（35 秒 · 1080p）。
+- `assets/preview.gif` —— 全流程速览动图（README 顶部自动播放）。
+- `assets/poster-*.png` —— 视频封面图。
 - `client.js` —— Web 客户端：覆盖用户消息节点、编辑态、复制/编辑动作、回卷替换 + 归档流程。
 - `index.js` —— 服务端入口（空实现，仅让 bundle 可加载并下发客户端模块）。
 - `cordis.patch.yml` —— 声明把本插件插入 DSH 加载树。
